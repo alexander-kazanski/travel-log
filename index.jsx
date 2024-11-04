@@ -8,7 +8,7 @@ function Card(props) {
           <img className="scenery-image" src={data.imageUrl} alt={`Image of ${data.title}`} />
           <div className="card-details">
               <span className="map-information">
-                  <img className="pin" src="../images/pin.png" alt="map pin logo" />
+                  <img className="pin" src="https://github.com/alexander-kazanski/travel-log/blob/main/images/pin.png?raw=true" alt="map pin logo" />
                   <p className="country">{data.location}</p>
                   <a className="maps" href={data.googleMapsUrl}>View on Google Maps</a>
               </span>
