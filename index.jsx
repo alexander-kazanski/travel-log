@@ -56,7 +56,7 @@ function App() {
   const cards = data.map((card, idx) => (<Card key={idx} data={card} />))
   return <div className="container">
       <nav>
-          <img className="home-icon" src="./images/Path.png" alt="white globe icon" />
+          <img className="home-icon" src="https://github.com/alexander-kazanski/travel-log/blob/main/images/Path.png?raw=true" alt="white globe icon" />
           <p>my travel journal.</p>
       </nav>
       <div className="body">
