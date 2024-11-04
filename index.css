@@ -1,10 +1,95 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Inter' sans-serif;
 }
 
-h1 {
-    margin-top: 40px;
+.home-icon {
+  width: 1.5em;
+  height: 1.5em;
+
+}
+
+
+nav {
+  min-width: 34.375em;
+  min-height: 3.4375em;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4375em;
+}
+
+nav p {
+  color: #fff;
+  font-size: .90375rem;
+  font-weight: 600;
+}
+
+.body {
+  min-width: 34.375em;
+  margin-top: 2.81em;
+}
+
+.card {
+  display: flex;
+  gap: 1.1875em;
+  margin-left: 2.5em;
+  padding-bottom: 1.125em;
+  margin-bottom: 1.125em;
+  border-bottom: .0625em solid #F5F5F5;
+}
+
+.card .scenery-image {
+  min-width: 7.8125em;
+  min-height: 10.5em;
+  margin-right: 1.1875em;
+}
+
+.map-information {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: .64rem;
+  
+}
+
+.pin {
+  width: 7px;
+  height: 9.55px;
+  margin-right: .25em;
+}
+
+.country {
+  color: #2B283A;
+  margin-right: 1.171875em;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.maps {
+  color: #918E9B;
+}
+
+.location-information {
+  padding-right: 3.90625em;
+  margin-top: 0.68359375em;
+}
+
+.trip-location {
+  font-size: 1.5625rem;
+  font-weight: bold;
+  margin: 0 0 .63em 0;
+}
+
+.trip-duration {
+  font-size: .64rem;
+  font-weight: bold;
+  margin: 0 0 .8789em 0;
+}
+
+.trip-description {
+  font-size: .64rem;
+  margin: 0;
 }
